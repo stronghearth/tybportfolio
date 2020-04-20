@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
+import Header from '../Header/Header'
 import LandingPage from '../../routes/LandingPage/LandingPage';
 import AboutPage from '../../routes/AboutPage/AboutPage';
 import ProjectsPage from '../../routes/ProjectsPage/ProjectsPage';
@@ -11,6 +12,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <header>
+        <Header />
+      </header>
       <Switch>
           <Route
             exact
