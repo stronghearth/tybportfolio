@@ -26,8 +26,7 @@
 }
 
 .HomeLink:hover {
-    text-decoration: underline;
-    color: #E68500;
+    color: #EB7F61;
     cursor: pointer;
 }
 
@@ -38,7 +37,7 @@ li {
 
 li > .NavLink {
     text-decoration: none;
-    color: #E68500;
+    color: #EB7F61;
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     margin: 10px;

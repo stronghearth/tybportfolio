@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronDown, faChevronUp} from '@fortawesome/free-solid-svg-icons';
+import { faChevronDown, faChevronUp, faDungeon } from '@fortawesome/free-solid-svg-icons';
 import './Header.css';
 
 export default class Header extends Component {
@@ -56,8 +56,8 @@ export default class Header extends Component {
 
     render() {
         const {isMobile, menuOpen} = this.state 
-        return <section className="NavBar">
-            <h1><Link to='/' className="HomeLink">T Y B</Link></h1>
+        return <section className="NavBar" role="navigation">
+            <h1><Link to='/' className="HomeLink"><FontAwesomeIcon icon={faDungeon}/> T Y B</Link></h1>
                 {isMobile
                     ? !menuOpen ? <FontAwesomeIcon icon={faChevronDown} role='button' className='HomeLink' onClick={e => this.openMenu()}/> : this.renderHamburgerMenu()
                     : this.renderNavList()}
