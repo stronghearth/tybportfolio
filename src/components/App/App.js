@@ -15,6 +15,7 @@ function App() {
       <header>
         <Header />
       </header>
+      <main>
       <Switch>
           <Route
             exact
@@ -40,6 +41,7 @@ function App() {
             component={NotFound}
           />
       </Switch>
+      </main>
     </div>
   );
 }

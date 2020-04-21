@@ -1,3 +1,4 @@
+
 .NavBar{
     background-color: #033859;
     display: flex;
@@ -39,7 +40,7 @@ li > .NavLink {
     text-decoration: none;
     color: #E68500;
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     margin: 10px;
 }
 
