@@ -23,10 +23,12 @@ header {
 }
 
 main {
-    max-width: 95%;
     display: flex;
     flex-direction: column;
+    justify-items: center;
+    align-items: center;
 }
+
 .App-link {
   color: #61dafb;
 }

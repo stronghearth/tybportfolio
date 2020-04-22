@@ -1,0 +1,143 @@
+.aboutSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    background-color: #DDDDDD;
+    border-radius: 10px;
+    width: 300px;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.pageSubheading {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.me {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+.myInformation {
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.myDescription {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.buttonDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.suggestionButton {
+    background-color: #E44F26;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 2px;
+}
+
+.suggestionButton:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 700px) {
+    .aboutSection{
+        margin-top: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 85%;
+        padding: 25px;
+        line-height: 2em;
+    }
+    .pageSubheading{
+        font-size: 40px;
+    }
+    .myDescription {
+        font-size: 22px;
+    }
+    .me {
+        width: 250px;
+        height: 250px;
+    }
+    .suggestionButton{
+        padding: 20px;
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .aboutSection{
+        margin-top: 70px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: fit-content;
+        line-height: 1em;
+    }
+    .pageSubheading {
+        font-size: 30px;
+    }
+    .infoDiv {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 5px;
+    }
+    .myDescription{
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    .me {
+        width: 275px;
+        height: 275px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .aboutSection{
+        margin-top: unset;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        height: fit-content;
+        line-height: 1.5em;
+    }
+    .pageSubheading {
+        font-size: 35px;
+    }
+    .infoDiv {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    .myDescription{
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    .me {
+        width: 425px;
+        height: 425px;
+        margin-right: 100px;
+    }
+}
