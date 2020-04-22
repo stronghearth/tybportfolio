@@ -35,6 +35,7 @@
 .getToKnow:hover {
     text-decoration: underline;
     cursor: pointer;
+    background-color: #0C3FB8;
 }
 
 .buttonLink {

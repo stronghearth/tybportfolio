@@ -26,9 +26,9 @@ export default class Header extends Component {
     renderHamburgerMenu() {
         return <>
         <ul className="NavList">
-            <li><Link to='/about' className="NavLink">About Me</Link></li>
-            <li><Link to='/projects' className="NavLink">Projects</Link></li>
-            <li><Link to='/contact' className="NavLink">Contact Me</Link></li>
+            <li><Link to='/about' onClick={e => this.closeMenu()} className="NavLink">About Me</Link></li>
+            <li><Link to='/projects' onClick={e => this.closeMenu()} className="NavLink">Projects</Link></li>
+            <li><Link to='/contact' onClick={e => this.closeMenu()} className="NavLink">Contact Me</Link></li>
         </ul>
         <FontAwesomeIcon icon={faChevronUp} role="button" className="HomeLink" onClick={e => this.closeMenu()}/>
         </>
@@ -57,7 +57,7 @@ export default class Header extends Component {
     render() {
         const {isMobile, menuOpen} = this.state 
         return <section className="NavBar" role="navigation">
-            <h1><Link to='/' className="HomeLink"><FontAwesomeIcon icon={faDungeon}/> T Y B</Link></h1>
+            <h1><Link to='/' className="HomeLink" onClick={e => this.closeMenu()}><FontAwesomeIcon icon={faDungeon}/> T Y B</Link></h1>
                 {isMobile
                     ? !menuOpen ? <FontAwesomeIcon icon={faChevronDown} role='button' className='HomeLink' onClick={e => this.openMenu()}/> : this.renderHamburgerMenu()
                     : this.renderNavList()}

@@ -48,6 +48,7 @@
 .suggestionButton:hover{
     text-decoration: underline;
     cursor: pointer;
+    background-color: #0C3FB8;
 }
 
 @media screen and (min-width: 700px) {
