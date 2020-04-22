@@ -9,7 +9,7 @@ export default class ContactPage extends Component {
         return (<section className="contactSection">
             <section className="contactMenu">
             <h2 className="pageSubheading">Contact Me</h2>
-            <p>You may use the following to get in touch with me:</p>
+            <p className="contactMessage">You may use the following to get in touch with me:</p>
             <div className="contactRowOne">
                 <a href="mailto:taylordyoung1@gmail.com" target="/blank"><FontAwesomeIcon role="link" icon={faEnvelopeSquare} className="icons firstIcon" size="6x"/></a>
                 <a href="https://www.linkedin.com/in/taylorybradshaw/" target="/blank"><FontAwesomeIcon role="link" icon={faLinkedin} className="icons" size="6x"/></a>

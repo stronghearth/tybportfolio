@@ -21,13 +21,18 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 25px;
     align-items: center;
+}
+
+.contactMessage {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .icons {
     color: #E44F26;
-    /* margin: 25px; */
 }
 
 .icons:hover {
@@ -36,4 +41,81 @@
 
 .firstIcon {
     margin-right: 50px;
+}
+
+@media screen and (min-width: 700px){
+    .contactSection {
+        margin-top: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        line-height: 2.5em;
+    }
+    .pageSubheading {
+        font-size: 45px;
+    }
+    .contactMenu {
+        width: 100%;
+        padding: 25px;
+    }
+    .contactMessage {
+        font-size: 30px;
+    }
+    .icons {
+        font-size: 200px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .contactSection{
+        margin-top: 75px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: fit-content;
+        line-height: 1em;
+    }
+    .pageSubheading {
+        font-size: 40px;
+    }
+    .contactMenu {
+        width: 100%;
+        padding: 25px;
+    }
+    .contactMessage {
+        font-size: 25px;
+    }
+    .icons {
+        font-size: 150px;
+    }
+}
+
+
+@media screen and (min-width: 1500px) {
+    .contactSection{
+        margin-top: 75px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+        height: fit-content;
+        line-height: 1em;
+    }
+    .pageSubheading {
+        font-size: 35px;
+    }
+    .contactMenu {
+        width: 100%;
+        padding: 25px;
+    }
+    .contactMessage {
+        font-size: 20px;
+    }
+    .icons {
+        font-size: 150px;
+    }
 }
