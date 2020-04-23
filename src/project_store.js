@@ -26,9 +26,9 @@ export default {
                 <img src={postgresql} aria-disabled='true' alt="postgresql"/>
             ],
             screenshots: [
-                <img src={canonize} className="mainScreenShot" alt="Canonize Homepage"/>,
-                <img src={canonize_small} alt="Canonize Character"/>,
-                <img src={canonize_3} alt="Canonize Edit Character"/>
+                {original: canonize},
+                {original: canonize_small},
+                {original: canonize_3},
             ]
         },
         {
@@ -46,9 +46,9 @@ export default {
                 <img src={postgresql} aria-disabled='true' alt="postgresql"/>
             ],
             screenshots: [
-                <img src={canonize} className="mainScreenShot" alt="Canonize Homepage"/>,
-                <img src={canonize_small} alt="Canonize Character"/>,
-                <img src={canonize_3} alt="Canonize Edit Character"/>
+                {original: canonize},
+                {original: canonize_small},
+                {original: canonize_3},
             ]
         },
         {
@@ -66,9 +66,9 @@ export default {
                 <img src={postgresql} aria-disabled='true' alt="postgresql"/>
             ],
             screenshots: [
-                <img src={indecisio1} className="mainScreenShot" alt="Indecisio Dashboard"/>,
-                <img src={indecisio2} alt="Indecisio Add Activity"/>,
-                <img src={indecisio3} alt="Indecisio Home Page Mobile"/>
+                {original: indecisio1},
+                {original: indecisio2},
+                {original: indecisio3},
             ]
         },
     ]

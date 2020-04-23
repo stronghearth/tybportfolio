@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import project_store from '../../project_store'
-import ExpandedProject from '../../components/ExpandedProject/ExpandedProject'
+import {Link} from 'react-router-dom'
 import './ProjectsPage.css'
 
 export default class ProjectsPage extends Component {
@@ -11,8 +11,12 @@ export default class ProjectsPage extends Component {
                 {project_store.projects.map(project => 
                         <>
                             <h3>{project.name}</h3>
-                            {project.screenshots[0]}
+                            <img src={project.screenshots[0].original} alt={project.name} className="mainScreenShot"/>
+
+                        <Link to={`/projects/${project.id}`}>More Info</Link>       
                         </>)}
+
+                <p>More to Come!</p>
             </section>
         )
     }
