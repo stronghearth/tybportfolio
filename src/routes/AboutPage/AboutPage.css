@@ -7,6 +7,7 @@
     background-color: #DDDDDD;
     border-radius: 10px;
     width: 300px;
+    height: fit-content;
     padding: 15px;
     margin-bottom: 50px;
 }
@@ -17,7 +18,7 @@
 
 .me {
     width: 125px;
-    height: 125px;
+    height: auto;
     border-radius: 50%;
 }
 
@@ -53,7 +54,7 @@
 
 @media screen and (min-width: 700px) {
     .aboutSection{
-        margin-top: 100px;
+        margin-top: 50px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -70,7 +71,6 @@
     }
     .me {
         width: 250px;
-        height: 250px;
     }
     .suggestionButton{
         padding: 20px;
@@ -85,8 +85,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 90%;
-        height: fit-content;
+        width: 85%;
         line-height: 1em;
     }
     .pageSubheading {
@@ -105,7 +104,6 @@
     }
     .me {
         width: 275px;
-        height: 275px;
         margin-right: 20px;
     }
 }
@@ -118,7 +116,6 @@
         left: 50%;
         transform: translate(-50%, -50%);
         width: 80%;
-        height: fit-content;
         line-height: 1.5em;
     }
     .pageSubheading {
@@ -138,7 +135,6 @@
     }
     .me {
         width: 425px;
-        height: 425px;
         margin-right: 100px;
     }
 }
