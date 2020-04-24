@@ -58,3 +58,50 @@
     color: #0C3FB8;
     text-decoration: underline;
 }
+
+@media screen and (min-width: 1000px){
+    .image-gallery {
+        width: 85%;
+    }
+    .projectDescription {
+        width: 85%;
+        font-size: 20px;
+    }
+    .languageIcon {
+        margin: 20px;
+        font-size: 50px;
+     }
+     
+     .postgresIcon {
+         height: 45px;
+         width: 45px;
+     }
+     .projectLink {
+         font-size: 25px;
+     }
+}
+
+@media screen and (min-width: 1500px) {
+    .projectSingle {
+        width: 75%;
+    }
+    .image-gallery {
+        width: 85%;
+    }
+    .projectDescription {
+        width: 85%;
+        font-size: 18px;
+    }
+    .languageIcon {
+        margin: 15px;
+        font-size: 50px;
+     }
+     
+     .postgresIcon {
+         height: 45px;
+         width: 45px;
+     }
+     .projectLink {
+         font-size: 20px;
+     }
+}
