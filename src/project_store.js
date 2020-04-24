@@ -2,12 +2,18 @@ import React from 'react'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faNodeJs, faHtml5, faCss3Alt, faReact} from '@fortawesome/free-brands-svg-icons'
 import postgresql from '../src/assets/postgresql.jpg'
-import canonize_small from '../src/assets/canonize_small.png'
-import canonize from '../src/assets/canonize.png'
-import canonize_3 from '../src/assets/canonize_3.png'
+import canonize1 from '../src/assets/canonize1.png'
+import canonize2 from '../src/assets/canonize2.png'
+import canonize3 from '../src/assets/canonize3.png'
+import canonize_mobile1 from '../src/assets/canonize_mobile1.png'
+import canonize_mobile2 from '../src/assets/canonize_mobile2.png'
+import canonize_mobile3 from '../src/assets/canonize_mobile3.png'
 import indecisio1 from '../src/assets/indecisio1.png'
+import indecisio_mobile1 from '../src/assets/indecisio_mobile1.png'
 import indecisio2 from '../src/assets/indecisio2.png'
+import indecisio_mobile2 from '../src/assets/indecisio_mobile2.png'
 import indecisio3 from '../src/assets/indecisio3.png'
+import indecisio_mobile3 from '../src/assets/indecisio_mobile3.png'
 
 
 export default {
@@ -25,10 +31,27 @@ export default {
                 <FontAwesomeIcon aria-disabled='true' icon={faNodeJs}/>,
                 <img src={postgresql} aria-disabled='true' alt="postgresql"/>
             ],
-            screenshots: [
-                {original: canonize},
-                {original: canonize_small},
-                {original: canonize_3},
+            screenshots_desktop: [
+                {
+                    original: canonize1,
+                },
+                {
+                    original: canonize2,
+                },
+                {
+                    original: canonize3,
+                },
+            ],
+            screenshots_mobile: [
+                {
+                    original: canonize_mobile1,
+                },
+                {
+                    original: canonize_mobile2,
+                },
+                {
+                    original: canonize_mobile3
+                },
             ]
         },
         {
@@ -45,10 +68,27 @@ export default {
                 <FontAwesomeIcon aria-disabled='true' icon={faNodeJs}/>,
                 <img src={postgresql} aria-disabled='true' alt="postgresql"/>
             ],
-            screenshots: [
-                {original: canonize},
-                {original: canonize_small},
-                {original: canonize_3},
+            screenshots_desktop: [
+                {
+                    original: canonize1,
+                },
+                {
+                    original: canonize2,
+                },
+                {
+                    original: canonize3,
+                },
+            ],
+            screenshots_mobile: [
+                {
+                    original: canonize_mobile1,
+                },
+                {
+                    original: canonize_mobile2,
+                },
+                {
+                    original: canonize_mobile3
+                },
             ]
         },
         {
@@ -65,10 +105,27 @@ export default {
                 <FontAwesomeIcon aria-disabled='true' icon={faNodeJs}/>,
                 <img src={postgresql} aria-disabled='true' alt="postgresql"/>
             ],
-            screenshots: [
-                {original: indecisio1},
-                {original: indecisio2},
-                {original: indecisio3},
+            screenshots_desktop: [
+                {
+                    original: indecisio1,
+                },
+                {
+                    original: indecisio2,
+                },
+                {
+                    original: indecisio3,
+                },
+            ],
+            screenshots_mobile: [
+                {
+                    original: indecisio_mobile1,
+                },
+                {
+                    original: indecisio_mobile2,
+                },
+                {
+                    original: indecisio_mobile3,
+                },
             ]
         },
     ]
