@@ -28,10 +28,15 @@ export default class ExpandedProject extends Component {
         return (
             <section className="projectSection">
             <h2>{currentProject.name}</h2>
-            <ImageGallery items={ isMobile ? currentProject.screenshots_mobile : currentProject.screenshots_desktop } slideDuration={1000} autoPlay={true} showBullets={true} showThumbnails={false}/>
-            <p>{currentProject.description}</p>
+            <ImageGallery items={ isMobile ? currentProject.screenshots_mobile : currentProject.screenshots_desktop } slideDuration={1000} showBullets={true} showThumbnails={false}/>
+            <p className="projectDescription">{currentProject.description}</p>
             <div className="languages">{currentProject.languageIcons}</div>
-            <Link to='/projects'>Go Back to Projects</Link>
+            <div className="projectLinks">
+                <a href={currentProject.liveApp} className="projectLink" target="/blank">Live App</a>
+                <a href={currentProject.client} className="projectLink" target="/blank">Client Repo</a>
+                <a href={currentProject.server} className="projectLink" target="/blank">Server Repo</a>
+            </div>
+            <div role="button" className="suggestionButton"><Link className="buttonLink" to='/projects'>Go Back to Projects</Link></div>
             </section>
         )
     }

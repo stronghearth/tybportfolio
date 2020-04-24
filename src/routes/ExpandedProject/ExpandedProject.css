@@ -1,1 +1,60 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
+
+.image-gallery {
+    border-style: groove;
+    border-color: black;
+    border-width: 2px;
+    margin-bottom: 15px;
+}
+
+.projectDescription {
+    text-align: left;
+    line-height: 1.5em;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.languageIcon {
+   margin: 20px;
+   font-size: 40px;
+}
+
+.postgresIcon {
+    height: 35px;
+    width: 35px;
+}
+
+.nodeIcon {
+    color: darkgreen;
+}
+
+.reactIcon {
+    color: rgb(3, 130, 133);
+}
+
+.htmlIcon {
+    color: #E44F26;
+}
+
+.cssIcon {
+    color: #032940;
+}
+
+.projectLinks {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.projectLink {
+    color: #E44F26;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.projectLink:hover {
+    color: #0C3FB8;
+    text-decoration: underline;
+}

@@ -25,11 +25,11 @@ export default {
             client: 'https://github.com/stronghearth/canonize-client',
             server: 'https://github.com/stronghearth/canonize-server',
             languageIcons: [
-                <FontAwesomeIcon aria-disabled='true' icon={faHtml5}/>,
-                <FontAwesomeIcon aria-disabled='true' icon={faCss3Alt}/>,
-                <FontAwesomeIcon aria-disabled='true' icon={faReact}/>,
-                <FontAwesomeIcon aria-disabled='true' icon={faNodeJs}/>,
-                <img src={postgresql} aria-disabled='true' alt="postgresql"/>
+                <FontAwesomeIcon className="htmlIcon languageIcon" size="lg" aria-disabled='true' icon={faHtml5}/>,
+                <FontAwesomeIcon className="cssIcon languageIcon" size="lg"  aria-disabled='true' icon={faCss3Alt}/>,
+                <FontAwesomeIcon className="reactIcon languageIcon" size="lg" aria-disabled='true' icon={faReact}/>,
+                <FontAwesomeIcon className="nodeIcon languageIcon" size="lg" aria-disabled='true' icon={faNodeJs}/>,
+                <img src={postgresql} className="postgresIcon languageIcon" aria-disabled='true' alt="postgresql"/>
             ],
             screenshots_desktop: [
                 {
@@ -62,11 +62,11 @@ export default {
             client: 'https://github.com/stronghearth/spaced-repetition',
             server: 'https://github.com/jordanxcast/spaced-repetition-api',
             languageIcons: [
-                <FontAwesomeIcon aria-disabled='true' icon={faHtml5}/>,
-                <FontAwesomeIcon aria-disabled='true' icon={faCss3Alt}/>,
-                <FontAwesomeIcon aria-disabled='true' icon={faReact}/>,
-                <FontAwesomeIcon aria-disabled='true' icon={faNodeJs}/>,
-                <img src={postgresql} aria-disabled='true' alt="postgresql"/>
+                <FontAwesomeIcon className="htmlIcon languageIcon" size="lg" aria-disabled='true' icon={faHtml5}/>,
+                <FontAwesomeIcon className="cssIcon languageIcon" size="lg"  aria-disabled='true' icon={faCss3Alt}/>,
+                <FontAwesomeIcon className="reactIcon languageIcon" size="lg" aria-disabled='true' icon={faReact}/>,
+                <FontAwesomeIcon className="nodeIcon languageIcon" size="lg" aria-disabled='true' icon={faNodeJs}/>,
+                <img src={postgresql} className="postgresIcon languageIcon"  aria-disabled='true' alt="postgresql"/>
             ],
             screenshots_desktop: [
                 {
@@ -99,11 +99,11 @@ export default {
             client: 'https://github.com/thinkful-ei-jaguar/indecisio-client',
             server: 'https://github.com/stronghearth/indecisio-server',
             languageIcons: [
-                <FontAwesomeIcon aria-disabled='true' icon={faHtml5}/>,
-                <FontAwesomeIcon aria-disabled='true' icon={faCss3Alt}/>,
-                <FontAwesomeIcon aria-disabled='true' icon={faReact}/>,
-                <FontAwesomeIcon aria-disabled='true' icon={faNodeJs}/>,
-                <img src={postgresql} aria-disabled='true' alt="postgresql"/>
+                <FontAwesomeIcon className="htmlIcon languageIcon" size="lg" aria-disabled='true' icon={faHtml5}/>,
+                <FontAwesomeIcon className="cssIcon languageIcon" size="lg"  aria-disabled='true' icon={faCss3Alt}/>,
+                <FontAwesomeIcon className="reactIcon languageIcon" size="lg" aria-disabled='true' icon={faReact}/>,
+                <FontAwesomeIcon className="nodeIcon languageIcon" size="lg" aria-disabled='true' icon={faNodeJs}/>,
+                <img src={postgresql} className="postgresIcon languageIcon" aria-disabled='true' alt="postgresql"/>
             ],
             screenshots_desktop: [
                 {
