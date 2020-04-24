@@ -8,6 +8,12 @@ import canonize3 from '../src/assets/canonize3.png'
 import canonize_mobile1 from '../src/assets/canonize_mobile1.png'
 import canonize_mobile2 from '../src/assets/canonize_mobile2.png'
 import canonize_mobile3 from '../src/assets/canonize_mobile3.png'
+import catalan1 from '../src/assets/catalan1.png'
+import catalan2 from '../src/assets/catalan2.png'
+import catalan3 from '../src/assets/catalan3.png'
+import catalan_mobile1 from '../src/assets/catalan_mobile1.png'
+import catalan_mobile2 from '../src/assets/catalan_mobile2.png'
+import catalan_mobile3 from '../src/assets/catalan_mobile3.png'
 import indecisio1 from '../src/assets/indecisio1.png'
 import indecisio_mobile1 from '../src/assets/indecisio_mobile1.png'
 import indecisio2 from '../src/assets/indecisio2.png'
@@ -57,7 +63,7 @@ export default {
         {
             id: 2,
             name: 'Catalan Cards',
-            description: 'Learn the Catalan language, exclusive to Barcelona, Spain, through the spaced repetition technique. Words you haven\'t memorized yet will appear more often! Keep track of your overall score and how often you\'ve gotten a word correct! I built this app with a partner.',
+            description: 'Learn the Catalan language, exclusive to Barcelona, Spain, through the spaced repetition technique. Words you haven\'t memorized yet will appear more often! Keep track of your overall score and how often you\'ve gotten a word correct!',
             liveApp: 'https://catalan-repetition.now.sh/',
             client: 'https://github.com/stronghearth/spaced-repetition',
             server: 'https://github.com/jordanxcast/spaced-repetition-api',
@@ -70,31 +76,31 @@ export default {
             ],
             screenshots_desktop: [
                 {
-                    original: canonize1,
+                    original: catalan1,
                 },
                 {
-                    original: canonize2,
+                    original: catalan2,
                 },
                 {
-                    original: canonize3,
+                    original: catalan3,
                 },
             ],
             screenshots_mobile: [
                 {
-                    original: canonize_mobile1,
+                    original: catalan_mobile1,
                 },
                 {
-                    original: canonize_mobile2,
+                    original: catalan_mobile2,
                 },
                 {
-                    original: canonize_mobile3
+                    original: catalan_mobile3
                 },
             ]
         },
         {
             id: 3,
             name: 'Indecisio',
-            description: 'Indecisio is a randomized activity suggestion application for people who need suggestions of what to do while stuck in quarantine during COVID-19. Users can add suggestions to the randomized activity pool and build a profile of what activites they have completed the most. I built this application with two other developers.',
+            description: 'Indecisio is a randomized activity suggestion application for people who need suggestions of what to do while stuck in quarantine during COVID-19. Users can add suggestions to the randomized activity pool and build a profile of what activites they have completed the most.',
             liveApp: 'https://indecisio.now.sh/',
             client: 'https://github.com/thinkful-ei-jaguar/indecisio-client',
             server: 'https://github.com/stronghearth/indecisio-server',
