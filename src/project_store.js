@@ -31,11 +31,11 @@ export default {
             client: 'https://github.com/stronghearth/canonize-client',
             server: 'https://github.com/stronghearth/canonize-server',
             languageIcons: [
-                <FontAwesomeIcon className="htmlIcon languageIcon" size="lg" aria-disabled='true' icon={faHtml5}/>,
-                <FontAwesomeIcon className="cssIcon languageIcon" size="lg"  aria-disabled='true' icon={faCss3Alt}/>,
-                <FontAwesomeIcon className="reactIcon languageIcon" size="lg" aria-disabled='true' icon={faReact}/>,
-                <FontAwesomeIcon className="nodeIcon languageIcon" size="lg" aria-disabled='true' icon={faNodeJs}/>,
-                <img src={postgresql} className="postgresIcon languageIcon" aria-disabled='true' alt="postgresql"/>
+                <FontAwesomeIcon key={1} className="htmlIcon languageIcon" size="lg" aria-disabled='true' icon={faHtml5}/>,
+                <FontAwesomeIcon key={2} className="cssIcon languageIcon" size="lg"  aria-disabled='true' icon={faCss3Alt}/>,
+                <FontAwesomeIcon key={3} className="reactIcon languageIcon" size="lg" aria-disabled='true' icon={faReact}/>,
+                <FontAwesomeIcon key={4} className="nodeIcon languageIcon" size="lg" aria-disabled='true' icon={faNodeJs}/>,
+                <img src={postgresql} key={5} className="postgresIcon languageIcon"  aria-disabled='true' alt="postgresql"/>
             ],
             screenshots_desktop: [
                 {
@@ -68,11 +68,11 @@ export default {
             client: 'https://github.com/stronghearth/spaced-repetition',
             server: 'https://github.com/jordanxcast/spaced-repetition-api',
             languageIcons: [
-                <FontAwesomeIcon className="htmlIcon languageIcon" size="lg" aria-disabled='true' icon={faHtml5}/>,
-                <FontAwesomeIcon className="cssIcon languageIcon" size="lg"  aria-disabled='true' icon={faCss3Alt}/>,
-                <FontAwesomeIcon className="reactIcon languageIcon" size="lg" aria-disabled='true' icon={faReact}/>,
-                <FontAwesomeIcon className="nodeIcon languageIcon" size="lg" aria-disabled='true' icon={faNodeJs}/>,
-                <img src={postgresql} className="postgresIcon languageIcon"  aria-disabled='true' alt="postgresql"/>
+                <FontAwesomeIcon key={1} className="htmlIcon languageIcon" size="lg" aria-disabled='true' icon={faHtml5}/>,
+                <FontAwesomeIcon key={2} className="cssIcon languageIcon" size="lg"  aria-disabled='true' icon={faCss3Alt}/>,
+                <FontAwesomeIcon key={3} className="reactIcon languageIcon" size="lg" aria-disabled='true' icon={faReact}/>,
+                <FontAwesomeIcon key={4} className="nodeIcon languageIcon" size="lg" aria-disabled='true' icon={faNodeJs}/>,
+                <img src={postgresql} key={5} className="postgresIcon languageIcon"  aria-disabled='true' alt="postgresql"/>
             ],
             screenshots_desktop: [
                 {
@@ -105,11 +105,11 @@ export default {
             client: 'https://github.com/thinkful-ei-jaguar/indecisio-client',
             server: 'https://github.com/stronghearth/indecisio-server',
             languageIcons: [
-                <FontAwesomeIcon className="htmlIcon languageIcon" size="lg" aria-disabled='true' icon={faHtml5}/>,
-                <FontAwesomeIcon className="cssIcon languageIcon" size="lg"  aria-disabled='true' icon={faCss3Alt}/>,
-                <FontAwesomeIcon className="reactIcon languageIcon" size="lg" aria-disabled='true' icon={faReact}/>,
-                <FontAwesomeIcon className="nodeIcon languageIcon" size="lg" aria-disabled='true' icon={faNodeJs}/>,
-                <img src={postgresql} className="postgresIcon languageIcon" aria-disabled='true' alt="postgresql"/>
+                <FontAwesomeIcon key={1} className="htmlIcon languageIcon" size="lg" aria-disabled='true' icon={faHtml5}/>,
+                <FontAwesomeIcon key={2} className="cssIcon languageIcon" size="lg"  aria-disabled='true' icon={faCss3Alt}/>,
+                <FontAwesomeIcon key={3} className="reactIcon languageIcon" size="lg" aria-disabled='true' icon={faReact}/>,
+                <FontAwesomeIcon key={4} className="nodeIcon languageIcon" size="lg" aria-disabled='true' icon={faNodeJs}/>,
+                <img src={postgresql} key={5} className="postgresIcon languageIcon"  aria-disabled='true' alt="postgresql"/>
             ],
             screenshots_desktop: [
                 {

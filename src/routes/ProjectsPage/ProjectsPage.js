@@ -32,7 +32,7 @@ export default class ProjectsPage extends Component {
                 <h2 className="pageSubheading">My Projects</h2>
                 <div className="projectRow">
                 {project_store.projects.map(project => 
-                        <div className="individualProject">
+                        <div className="individualProject" key={project.id}>
                             <h3 className="projectName">{project.name}</h3>
                             <img src={isMobile ? project.screenshots_mobile[0].original : project.screenshots_desktop[0].original} alt={project.name} className="mainScreenShot"/>
 
